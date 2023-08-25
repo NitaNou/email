@@ -12,7 +12,7 @@ public class EmailApp {
         Employee employee1 = new Employee(firstName, lastName);
         System.out.println(employee1);
         employee1.setEmployeeID();
-        System.out.println("Your employee ID is: " + employee1.getEmployeeID());
+        System.out.println("Your EMPLOYEE ID is: " + employee1.getEmployeeID());
 
 
         String dept = "";
@@ -35,8 +35,8 @@ public class EmailApp {
         Email email = new Email();
         email.setEmail(employee1);
         email.setPassword();
-        System.out.println(email.getEmail()); // add header
-        System.out.println(email.getPassword()); // add header
+        System.out.println("Your EMAIL is: " + email.getEmail());
+        System.out.println("Your PASSWORD is: " + email.getPassword());
 
 
 
